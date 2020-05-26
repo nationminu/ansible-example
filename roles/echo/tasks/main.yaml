@@ -1,0 +1,7 @@
+---
+- name: echo hello world
+  shell: |
+    date
+    echo "Hello World"
+    date
+...
