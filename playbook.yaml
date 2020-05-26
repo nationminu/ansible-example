@@ -1,0 +1,4 @@
+---
+- hosts: all
+  roles:
+    - { role: echo , tags: ["all"] }
