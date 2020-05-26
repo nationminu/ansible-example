@@ -4,4 +4,8 @@
     date
     echo "Hello World"
     date
+  register: out
+
+- name: debug hello world
+  debug: var=out.stdout_lines    
 ...
